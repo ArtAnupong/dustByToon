@@ -1,6 +1,11 @@
 <template>
   <div id="Location">
-    <label for=""><h1><img src="../assets/gps.png" alt>{{ stationData.dustboy_name }}</h1></label>
+    <label for>
+      <h1>
+        <img src="../assets/gps.png" alt>
+        {{ locationname }}
+      </h1>
+    </label>
   </div>
 </template>
 
@@ -8,11 +13,7 @@
 //import StationApi from "@/api-services/stations.service";
 
 export default {
-  name: 'Location',
-  data () {
-    return {
-      stationData: {}
-    }
-  }
-}
+  name: "Location",
+  props: ["locationname"]
+};
 </script>
