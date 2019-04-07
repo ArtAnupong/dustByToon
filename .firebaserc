@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "dust-app-mfu"
+    "default": "dust-app-mfu",
+    "stageing": "dustbytoon"
   }
 }

@@ -14,7 +14,7 @@
         </div>
         <br/>
         <div>
-          <img src="../assets/toon.png" alt>
+          <img src="../assets/toon1.png" alt>
         </div>
     </div>
 </template>
