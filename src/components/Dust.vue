@@ -13,6 +13,9 @@
             <current-time v-bind:logdatetime="stationData.value[0].log_datetime"/>
         </div>
         <br/>
+        <div>
+          <img src="../assets/toon.png" alt>
+        </div>
     </div>
 </template>
 <script>
