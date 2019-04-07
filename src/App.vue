@@ -4,14 +4,18 @@
       <span>อากาศบ้านเฮา</span>
     </header>
     <main>
-      <router-view></router-view>
+      <Dust />
     </main>
   </div>
 </template>
 
 <script>
+import Dust from './components/Dust'
 export default {
-  name: 'app'
+  name: 'app',
+  components: {
+    Dust
+  }
 }
 </script>
 

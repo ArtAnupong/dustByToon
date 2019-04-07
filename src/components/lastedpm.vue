@@ -7,7 +7,7 @@
 
 <script>
 export default {
-  name: 'lastedpm25',
+  name: 'lastedpm',
   props: ['pm25']
 }
 </script>

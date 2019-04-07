@@ -10,10 +10,10 @@
 </template>
 
 <script>
-//import StationApi from "@/api-services/stations.service";
+// import StationApi from "@/api-services/stations.service";
 
 export default {
-  name: "Location",
-  props: ["locationname"]
-};
+  name: 'Location',
+  props: ['locationname']
+}
 </script>
