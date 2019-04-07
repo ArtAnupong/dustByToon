@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <header>
-      <span>อากาศบ้านเฮา</span>
+      <span>Dust By Toon</span>
     </header>
     <main>
       <Dust />
